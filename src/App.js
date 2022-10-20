@@ -18,15 +18,15 @@ function App() {
     },
     {
       nome: "        'Data Science'",
-      corPrimaria: "A6D157",
-      corSecundaria:'#FQF8E2',
+      corPrimaria: "#A6D157",
+      corSecundaria:'#F0F8E2',
 
     },
     
 
     {
       nome: "        'Devops'",
-      corPrimaria: "E06B69",
+      corPrimaria: "#E06B69",
       corSecundaria:'#FDE7E8'
     
     },
@@ -34,20 +34,20 @@ function App() {
 
     {
       nome: "        'UX e Design'",
-      corPrimaria: "0B6EBF",
+      corPrimaria: "#DB6EBF",
       corSecundaria:'#FAE9F5'
       
     },
 
     {
       nome: "        'Mobile'",
-      corPrimaria: "FFBA05",
+      corPrimaria: "#FFBA05",
       corSecundaria:'#FFF5D9',
     
     },
     {
       nome: "        'Inovação e Gestão'",
-      corPrimaria: "FF88A29",
+      corPrimaria: "#FF88A2",
       corSecundaria:'#FFEEDF'
     
     } 
