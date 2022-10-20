@@ -6,35 +6,50 @@ import Time from "./componentes/Time";
 function App() {
   const times = [
     {
-      nome: "        'Programação',",
-      corPrimaria: "",
+      nome: "        'Programação'",
+      corPrimaria: "", corSecundaria:'#D9F7E9'
+      ,
     },
     {
-      nome: "        'Front-End',",
+      nome: "        'Front-End'",
       corPrimaria: "",
+      corSecundaria:'#D9F7E9',
     },
     {
-      nome: "        'Data Science',",
+      nome: "        'Data Science'",
       corPrimaria: "",
+      corSecundaria:'#D9F7E9',
+
     },
+    
+
     {
-      nome: "        'Devops',",
+      nome: "        'Devops'",
       corPrimaria: "",
+      corSecundaria:'#D9F7E9'
+    
+    },
+
+
+    {
+      nome: "        'UX e Design'",
+      corPrimaria: "",
+      corSecundaria:'#D9F7E9'
+      
     },
 
     {
-      nome: "        'UX e Design',",
+      nome: "        'Mobile'",
       corPrimaria: "",
-    },
-
-    {
-      nome: "        'Mobile',",
-      corPrimaria: "",
+      corSecundaria:'#D9F7E9',
+    
     },
     {
       nome: "        'Inovação e Gestão'",
       corPrimaria: "",
-    },
+      corSecundaria:'#D9F7E9'
+    
+    } 
   ];
 
   const [colaboradores, setColaboradores] = useState([]);
