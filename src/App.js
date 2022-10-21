@@ -55,7 +55,7 @@ function App() {
   return (
     <div className="App">
       <Banner />
-      <Formulario times={times.map(time => time.nome)}
+      <Formulario times={times.map(time => time.nome)} //map: primeiro parametro item da lista e retorna o que voce quer
         aoColaboradorCadastrado={(colaborador) =>
           aoNovoColaboradorAdicionado(colaborador)
         }
