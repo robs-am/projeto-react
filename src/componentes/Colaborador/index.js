@@ -4,7 +4,7 @@ const Colaborador = (props) => {
   return (
     <div className='colaborador'>
       <div className='cabecalho'>
-        <img src="https://github.com/robs-am.png" alt="Roberta Amaro" />
+        <img src={props.imagem} alt={props.nome} />
       </div>
       <div className='rodape'>
         <h4>{props.nome}</h4>
